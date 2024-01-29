@@ -28,5 +28,4 @@ const words = [
     "hipopotamo", "jirafa", "cocodrilo", "caiman", "serpiente", "tortuga", "tortuga", "tortuga marina", "tiburón", "pez payaso", "delfín",
     "ballena", "orca", "tigre blanco", "leon blanco", "oso polar", "panda", "koala", "canguro", "walabi", "kiwi", "emu", "pingüino",
     "perezoso"
-  ];
-  
+];
