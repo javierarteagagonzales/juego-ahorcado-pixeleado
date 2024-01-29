@@ -17,7 +17,7 @@ main {
 
     position: absolute;
     max-width: 500px;
-    height: 400px;
+    height: 450px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -33,6 +33,7 @@ main {
 
 #wordContainer {
     margin-top: 20px;
+    color: yellow;
 }
 
 .letter {
@@ -65,4 +66,8 @@ main {
     font-size: 20px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+#resultado{
+    margin-top: 10px;    
 }

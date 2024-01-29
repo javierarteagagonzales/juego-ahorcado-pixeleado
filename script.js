@@ -24,8 +24,11 @@ let hits;
 const addLetter = letter => {
     const letterElement = document.createElement('span');
     letterElement.innerHTML = letter.toUpperCase();
+    
     usedLettersElement.appendChild(letterElement);
-}
+ /*if(letterElement.some(elemento => selectedWord.includes(elemento))) {
+        usedLettersElement.classList.add('correcta');*/
+};
 
 const addBodyPart = bodyPart => {
     ctx.fillStyle = '#fff';
@@ -35,7 +38,11 @@ const addBodyPart = bodyPart => {
 const wrongLetter = () => {
     addBodyPart(bodyParts[mistakes]);
     mistakes++;
-    if(mistakes === bodyParts.length) endGame();
+    if(mistakes === bodyParts.length) 
+    {
+        mensaje();
+        endGame();
+    } 
 }
 
 const endGame = () => {
@@ -51,7 +58,10 @@ const correctLetter = letter => {
             hits++;
         }
     }
-    if(hits === selectedWord.length) endGame();
+    if(hits === selectedWord.length) {
+        mensajeGana();
+        endGame();
+    }
 }
 
 const letterInput = letter => {
@@ -109,6 +119,20 @@ const startGame = () => {
     selectRandomWord();
     drawWord();
     document.addEventListener('keydown', letterEvent);
+    document.getElementById("resultado").innerText = "";
+
 };
 
+let resultadoTexto = "";
+const mensaje = () => {
+    resultadoTexto = document.getElementById("resultado").innerText = "Perdiste!!";
+}
+
+const mensajeGana = () => {
+    resultadoTexto = document.getElementById("resultado").innerText = "¡GANASTE!";
+}
+
 startButton.addEventListener('click', startGame);
+
+
+

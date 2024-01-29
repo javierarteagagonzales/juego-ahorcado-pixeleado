@@ -24,8 +24,8 @@ const words = [
     "camaleon", "lagarto", "tucan", "loro", "cuervo", "colibri", "buitre", "halcon", "aguila", "gavilan", "búho", "lechuza", "cisne",
     "pato", "ganso", "pelícano", "flamenco", "garza", "cigüeña", "avestruz", "pavo", "pollo", "gallo", "gallina", "cabra", "oveja",
     "vaca", "toro", "cerdo", "jabali", "perro", "gato", "conejo", "raton", "hurón", "hamster", "cobaya", "conejo", "mapache", "comadreja",
-    "armadillo", "osos polares", "hiena", "zorro", "leon", "tigre", "jaguar", "pantera", "leopardo", "guepardo", "elefante", "rinoceronte",
-    "hipopotamo", "jirafa", "cocodrilo", "caiman", "serpiente", "tortuga", "tortuga", "tortuga marina", "tiburón", "pez payaso", "delfín",
+    "armadillo", "hiena", "zorro", "leon", "tigre", "jaguar", "pantera", "leopardo", "guepardo", "elefante", "rinoceronte",
+    "hipopotamo", "jirafa", "cocodrilo", "caiman", "serpiente", "tortuga", "tiburón", "pez payaso", "delfín",
     "ballena", "orca", "tigre blanco", "leon blanco", "oso polar", "panda", "koala", "canguro", "walabi", "kiwi", "emu", "pingüino",
     "perezoso"
 ];
